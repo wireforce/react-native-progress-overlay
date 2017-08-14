@@ -1,0 +1,44 @@
+{
+  "name": "react-native-progress-overlay",
+  "version": "0.9.0",
+  "description": "A smart progress overlay for React Native that shows a loading spinner and blocks the ui",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "author": "wireforce <wireforce@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "https://github.com/wireforce/react-native-progress-overlay.git",
+  "bugs": {
+    "url": "https://github.com/wireforce/react-native-progress-overlay/issues"
+  },
+  "files": [
+    "src",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "keywords": [
+    "react native progress overlay",
+    "react",
+    "react native",
+    "reactjs",
+    "progress overlay",
+    "loading spinner",
+    "progress"
+  ],
+  "dependencies": {
+	"prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+	"babel-eslint": "^6.1.1",
+	"eslint": "^3.19.0",
+	"eslint-config-airbnb": "^15.0.1",
+	"eslint-plugin-import": "^2.3.0",
+	"eslint-plugin-jsx-a11y": "^5.0.1",
+	"eslint-plugin-react": "^7.0.1",
+	"react": "16.0.0-alpha.12",
+	"react-native": "0.47.1"
+  }
+}
